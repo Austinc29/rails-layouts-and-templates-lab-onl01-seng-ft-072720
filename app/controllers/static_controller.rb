@@ -1,5 +1,4 @@
 class StaticController < ApplicationController
-  get '/home' do 
-    erb :home 
-  end  
+  def home
+  end
 end
